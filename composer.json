@@ -1,0 +1,26 @@
+{
+    "name": "14mb1v45h/cyberspace049",
+    "description": "A powerful malware scanner plugin for WordPress using the Yara framework.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "malware-analyst",
+        "email": "14mb1v45h@aol.com"
+      }
+    ],
+    "require": {
+      "php": ">=7.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "14mb1v45h\\cyberspace049\\": "src/"
+      }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+      "wordpress-plugin": {
+        "plugin-main-file": "malware-scanner.php"
+      }
+    }
+  }
